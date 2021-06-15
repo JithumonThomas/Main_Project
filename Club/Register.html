@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <link href="../assets/img/circle-cropped.png" rel="icon">
+    
+    <script src="https://kit.fontawesome.com/f9e84e067e.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css file -->
+    <link href="../assets/css/myStyle.css" rel="stylesheet">
+    
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Registration Page</title>
+</head>
+<div id="logo" class="row">
+  <div class="col-md-8 logodiv">
+    <h1>CAPITOL ART'S <span>&</span>SPORTS CLUB</h1>
+    <a href="index.html"><img src="../assets/img/circle-cropped.png" alt="Logo Image" title=""></a>
+  </div>
+  <div id="navdiv" class="col-md-4" >
+    <ul class="headnav">
+      <li class="headli"><a class="active" href="index.php">Home</a></li>
+      <li class="headli"><a href="#footer">Contact/About</a></li>
+      <li class="headli"><a href="index.php">BACK</a></li>
+    </ul>
+  </div>
+</div>
+
+    <div class="container">
+        <div class="row reg">
+           
+            <div class="col-md-4 imgdiv">
+                <img src="../assets/img/registration.png" >
+                <h1>Registration</h1>
+            </div>
+            <div class="col-md-4 formdiv">
+                
+                <form method="post" name="LoginRegFrm"  action="../../controller/RegMebAct.php" onsubmit="return LoginVa()">  
+                  <i class="far fa-user-circle"></i>
+                  <table>
+                    <tr>
+                      <td>Usename</td>
+                      <td>:</td>
+                      <td><input type="text" name="txtname" class="single " required></td>
+                    </tr>
+                    <tr>
+                      <td>Password</td>
+                      <td>:</td>
+                      <td><input type="password" name="psw" id="pass" class="single " required></td>
+                    </tr>
+                    <tr>
+                      <td>Confirm Password</td>
+                      <td>:</td>
+                      <td><input type="password" name="Conpsw" id="pass2" class="single " required></td>
+                     
+                    </tr>
+                  </table>
+                 <div class="eye text-dark" ><input type="checkbox" onclick="myFunction1()"> <label>Show Password</label></div>
+                 
+                 <div class="mt-4 ml-5 ">
+                  <label class="text-danger">Which Is Your Favrote Sports Item</label>
+                  <input type="text" name="Forgtn" class="rounded-right rounded-left" required>
+                  <br>
+                  <pre class="mt-1 "><span id="forget">*</span>Please Remember Your Favrote Item</pre>
+                  </div>
+                 
+                  <br>
+                    <input type="submit" class="btn btn-outline-primary btn-lg btn-block " value="Submit"/>  
+                    <input type="reset" class="btn btn-outline-secondary  btn-sm btn-block mt-3">
+                    </form>
+            </div> 
+        </div>
+       
+        </div>
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class=" col-md-6 footer-info">
+            <img src="../assets/img/circle-cropped.png" alt="Capitol Arts & Sports Club Logo">
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://wa.me/918593063598" class="whatsapp"><i class="fab fa-whatsapp-square"></i></i></a>
+              
+              
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="mailto:capitolarts&sportsclub@gamil.com">Send You Comment</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+               Valliyathu,<br>
+              India,Kerala,KOttayam Pala<br>
+              <br>
+              <strong>Phone:</strong> +91 8593063598<br>
+              <strong>Email:</strong> capitolarts&sportsclub@gamil.com<br>
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Capitol Art,s And Sports Club</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+      -->
+        Designed by <a href="https://bootstrapmade.com/">Jithumon Thomas</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+  <!-- js file -->
+  <script src="../../view/assets/js/validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+<script>
+      function myFunction1() {
+        var x = document.getElementById("pass");
+        var y=document.getElementById("pass2");
+        if (x.type === "password" &&y.type === "password" ) {
+          x.type = "text";
+          y.type = "text";
+        } else {
+          x.type = "password";
+          y.type = "password";
+        }
+     
+}
+</script>

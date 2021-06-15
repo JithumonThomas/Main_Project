@@ -1,0 +1,67 @@
+#body{
+  font-family: 'Do Hyeon', sans-serif;
+  background:url(../../../../style/libra.jpg),url(../../../../style/unnamed.jpg);
+  color: white;
+  background-repeat: repeat-x ,no-repeat;
+  background-position: top, center;
+  background-size: auto,100% 100%;
+  
+}
+#logo h2{
+    font-family: 'Odibee Sans', cursive;
+    text-decoration: underline;
+  }
+#header {
+  font-family: 'Bebas Neue', cursive;
+}
+  #section{
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+  }
+  #section a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  #sec2{
+    color: black
+  }
+#logo h1{
+    font-size: 33px;
+    margin:0;
+    padding: 6px 0;
+    color: rgb(4, 0, 255);
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  #logo span {
+    color: #eb291b;
+  }
+  #logo h5{
+    font-family: 'Kaushan Script', cursive;
+  }
+  #logo img {
+    max-height: 50px;
+  }
+  .footerDiv {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+    color: #eb291b;
+}
+#centerDiv{
+  width: 50%;
+  height: 800px;
+  border:solid 3px green;
+  background-image: linear-gradient(rgb(160, 235, 222) , rgb(248, 173, 255));
+  margin: 50px auto 0 auto;
+  font-family: 'Odibee Sans', cursive;
+}
+@media only screen and (max-width: 600px) {
+  #centerDiv  {
+    margin: 50px 0 0 0 ;
+    width: 100%;
+  }
+}

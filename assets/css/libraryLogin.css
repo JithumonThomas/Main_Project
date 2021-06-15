@@ -1,0 +1,79 @@
+            #body{
+              font-family: 'Bebas Neue', cursive;
+            }
+             #logo h1 {
+              font-size: 33px;
+              margin: 0;
+              padding: 6px 0;
+              font-family: 'East Sea Dokdo', cursive;
+              font-weight: 700;
+              letter-spacing: 3px;
+              text-transform: uppercase;
+            }
+            #logo span {
+              color: #f82249;
+            }
+            #logo img {
+              max-height: 50px;
+            }
+
+            #logo h1 a{
+              color: #fff;
+            }
+            @media (max-width: 500px) {
+              #logo h1  {
+                margin-left: 5%;
+              }
+            }
+     /* Full-width input fields */
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 15px;
+              margin: 5px 0 22px 0;
+              display: inline-block;
+              border: none;
+              background: #f1f1f1;
+            }
+
+            input[type=text]:focus, input[type=password]:focus {
+              background-color: #ddd;
+              outline: none;
+            }
+
+            /* Overwrite default styles of hr */
+            hr {
+              border: 1px solid #f1f1f1;
+              margin-bottom: 25px;
+            }
+
+            /* Set a style for the submit button */
+            .registerbtn {
+              background-color: #4CAF50;
+              color: white;
+              padding: 16px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              opacity: 0.9;
+            }
+
+            .registerbtn:hover {
+              opacity: 1;
+            }
+        .col-sm-4{background:white;}
+         
+         footer {
+      
+      padding: 20px;
+    }
+        .jumbotron{background-image:url(https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg);}
+        footer a {
+          color: white;
+          background: rgb(0, 0, 0);
+
+        }
+        footer a:hover{
+          font-size: large;
+          color: #4CAF50;
+        }

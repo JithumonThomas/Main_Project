@@ -1,0 +1,78 @@
+
+#body{
+    font-family: 'Odibee Sans', cursive;
+}
+#logo h1{
+    font-size: 33px;
+    margin: 0;
+    padding: 6px 0;
+    color: rgb(0, 0, 0);
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  #logo span {
+    color: #eb291b;
+  }
+  #logo h5{
+    font-family: 'Kaushan Script', cursive;
+  }
+  #logo img {
+    max-height: 50px;
+  }
+  footer{
+      margin-top: 500px;
+  }
+  .footer{
+    margin-top: 100px;
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+   
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 86%;
+    z-index: 1;
+  }
+
+  /* ............. */
+ 
+ @media only screen and (max-width: 600px) {
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .info {
+    margin: 0 auto 0 auto;
+  
+  }
+  
+}
+#table td{
+  padding-left: 20px;
+  padding-top: 20px;
+}
